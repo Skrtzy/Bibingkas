@@ -1,0 +1,206 @@
+body{
+	background: linear-gradient(#030059,#050082);
+}
+
+
+
+
+*{
+	margin:	0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;	
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+	
+}
+
+
+
+
+.logo{
+	width: 50px;
+	cursor: pointer;
+	transition: width 0.5s;
+}
+
+.logo:hover{
+	width: 60px;
+	cursor: pointer;
+}
+
+
+
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;  
+	position: relative;
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	
+}
+
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+}
+
+header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	header: 100%;
+
+	
+}
+
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.nub{
+	width: 100%;
+	position: abosolute;
+	top: 50%;
+	text-transform: translateY(-50%);
+	text-align: center;
+	color: transparent;
+	font-size: 30px;
+	margin-top: -5%;
+	
+}
+
+
+
+button{
+	width: 300px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #DE9333;
+	background: transparent;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	margin-left:59%;
+
+	font-size:30px;
+}
+
+span{
+	background: #DE9333;
+	height: 100%;
+	width: 0%;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+	item-size: 500px;
+	
+}
+		
+button:hover span{
+	width: 100%;
+}
+
+button:hover{
+	border: none;
+}
+
+.container{
+	height: 100%;
+	width: 100vh;
+	background: rgb(254,194,0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.gallery{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
+.title{
+	width: 100%;
+	position: abosolute;
+	top: 50%;
+	text-transform: translateY(-50%);
+	text-align: center;
+	color: transparent;
+	font-size: 30px;
+	margin-top: -30px;
+	margin-left: -400px;
+	left: 50%;
+	tranform: tranlate(-50%, -50%);
+	font-size: 70px;
+	background-image: linear-gradient(#DE9333, #DE9333);
+	-webkit-text-stroke: 2px #7B4D2F;
+	background-repeat: no-repeat;
+	-webkit-background-clip: text;
+	background-position: -1000px 0;
+	animation: backcolor 2s linear infinite alternate;
+	
+	
+}
+
+@keyframes backcolor{
+	100%{
+		background-position: 0 0;
+		
+	}
+	
+	
+}
+
+
+.desc{
+	text-align:center;
+	
+	
+	
+}
